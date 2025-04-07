@@ -1,0 +1,14 @@
+{
+    "name": "marhabatechnicalservices/waseemprogrammer",
+    "description": "Marhaba Technical Services is a Platform for Ac Reapir Services in UAE",
+    "authors": [
+        {
+            "name": "Waseem Malik"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
