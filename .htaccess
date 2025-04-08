@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    DocumentRoot /home/username/your-project/public
+    ServerName yourdomain.com
+
+    <Directory /home/username/your-project/public>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
