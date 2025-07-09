@@ -1,9 +1,10 @@
-<VirtualHost *:80>
-    DocumentRoot /home/username/your-project/public
-    ServerName yourdomain.com
+RewriteEngine On
+RewriteBase /
 
-    <Directory /home/username/your-project/public>
-        AllowOverride All
-        Require all granted
-    </Directory>
-</VirtualHost>
+# Redirect to public folder if not already there
+RewriteCond %{REQUEST_URI} !^/public/
+
+# If file or directory does not exist, redirect to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]

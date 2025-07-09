@@ -15,7 +15,7 @@
     <nav class="navbar">
         <div class="logo">
             <!-- <img src="" alt=""> -->
-            <h2 class="logo"><i class="fa-solid fa-gear"></i> Marhaba Technical Services</h2>
+            <h2 class="logo"><a href="/"><i class="fa-solid fa-gear"></i> Marhaba Technical Services</a></h2>
         </div>
              <ul class="nav-links">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
