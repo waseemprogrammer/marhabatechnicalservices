@@ -7,6 +7,7 @@ class Helper{
         echo "<pre>";
         print_r($value);
         echo "</pre>";
+        die();
     }
     
     public static function asset($path) {

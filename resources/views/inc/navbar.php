@@ -26,7 +26,7 @@
                 
              </ul>
         <div class="cta">
-            <button class="support"><a href="tel:+0563447645 "><i class="fa-solid fa-headset"></i>Support</a></button>
+            <button class="support"><a href="tel:+0563447645 "><i class="fa-solid fa-headset"></i><p>Quick Call</p></a></button>
         </div>
     </nav>
 </header>

@@ -1,0 +1,31 @@
+:root {
+    /* Colors */
+    --primary-color: rgb(15 23 42 / 0.8);
+    --secondary-color: #1A2436;
+    --card-bg-color: #1E293B;
+    --gradient-color-1: rgb(103, 232, 249);
+    --gradient-color-2: rgb(59, 130, 246);
+    --background-color: rgb(15 23 42 / 0.9);
+    --text-color: #212529;
+    --heading-color: #56C3F8;
+    --btn-color: #05b8e0;
+    --highlighted-text-color: #23D3ED;
+    --text-fade-color: #94A3B8;
+    --top-link-font-size: 14px;
+    --border-color: #e5e7eb;
+    --border-rgba-color: rgba(229, 231, 235,0.1);
+    --light-color: aliceblue;
+
+    /* Fonts */
+    --font-body: 'Roboto', sans-serif;
+    --font-body-main: 'Inter', system-ui, sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+
+    /* Spacing */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+
+    /* Border radius */
+    --radius: 6px;
+}

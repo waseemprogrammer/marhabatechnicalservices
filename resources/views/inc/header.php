@@ -9,8 +9,11 @@ use App\Core\Helper;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marhaba Technical Services - We take care your Home Devices runs smoothly</title>
-    <link rel="stylesheet" href="<?php echo $helper::asset('css/app.css')  ?>">
+    <link rel="stylesheet" href="<?php echo $helper::asset('css/variables.css')  ?>">
+    <link rel="stylesheet" href="<?php echo $helper::asset('css/main.css')  ?>">
     <link rel="stylesheet" href="<?php echo $helper::asset('css/header.css')  ?>">
+    <link rel="stylesheet" href="<?php echo $helper::asset('css/home.css')  ?>">
+    <link rel="stylesheet" href="<?php echo $helper::asset('css/footer.css')  ?>">
     <link rel="stylesheet" href="<?php echo $helper::asset('fa-6.7.2/css/all.min.css')  ?>">
     </head>
 <body>

@@ -1,0 +1,28 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body-main);
+  font-size: 16px;
+  background-color: rgb(15 23 42);
+  width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--highlighted-text-color);
+}
+li{
+    list-style: none;
+}
+button{
+    border: none;
+}
+
