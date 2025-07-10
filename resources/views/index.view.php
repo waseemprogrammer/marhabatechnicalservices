@@ -8,7 +8,7 @@ include __DIR__ . '/inc/header.php'; ?>
     <section class="hero">
         <h1 class="heading">Reliable Home Appliance Repair</h1>
         <p class="detail">Your one-stop solution for fast & efficient technical services in Dubai.</p>
-        <button class="btn">Get a Free Qoute</button>
+        <a href="tel:+0563447645"><button class="btn">Get a Free Qoute</button></a>
     </section>
     <!-- services section starts -->
     <section class="services">
