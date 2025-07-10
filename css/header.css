@@ -88,6 +88,9 @@ address {
 .logo-container {
     max-width: 10%;
 }
+.logo-container > img{
+     width: 50%;
+}
 
 .logo {
     width: 50%;
