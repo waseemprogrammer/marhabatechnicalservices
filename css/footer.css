@@ -7,7 +7,7 @@
     
 }
 .columns{
-    max-width: 90%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 4rem;
@@ -27,9 +27,7 @@
     gap: 1rem;
     padding: 0.6rem;
 }
-.col.about{
-    /* border: 2px solid orange; */
-}
+
 .col.about a{
     display: flex;
     gap: 1rem;
