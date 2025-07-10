@@ -1,0 +1,93 @@
+#whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-family: sans-serif;
+}
+
+/* Floating Button */
+#whatsapp-button {
+    background-color: var(--background-color); /* your brand color */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whatsapp-button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Chat Box */
+#chat-box {
+    display: none;
+    width: 270px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    animation: fadeInUp 0.3s ease;
+}
+
+/* Header */
+.chat-header {
+    background-color: rgb(15 23 42 / 0.8); /* your dark theme */
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header #close-chat {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Body */
+.chat-body {
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.chat-body input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-body button {
+    width: 100%;
+    padding: 8px;
+    background-color: var(--gradient-color-2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

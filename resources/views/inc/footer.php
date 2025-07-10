@@ -1,4 +1,6 @@
 <?php
+
+include __DIR__ . '/../feature/whatsapp.php';
 $siteName = "Marhaba Technical";
 ?>
 <footer class="footer">
@@ -63,6 +65,7 @@ $siteName = "Marhaba Technical";
     <div class="copyright">
         <p> <?= date('Y') ?> &copy; <?= $siteName ?? "" ?> All Rights Reserved</p>
     </div>
+    <script src="/js/whatsapp.js"></script>
 </footer>
 </body>
 

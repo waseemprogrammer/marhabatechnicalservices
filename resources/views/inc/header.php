@@ -19,6 +19,7 @@ $helper = new Helper(); ?>
     <link rel="stylesheet" href="<?php echo $helper::asset('css/comming-soon.css')  ?>">
     <link rel="stylesheet" href="<?php echo $helper::asset('css/maintain.css')  ?>">
     <link rel="stylesheet" href="<?php echo $helper::asset('css/notfound.css')  ?>">
+    <link rel="stylesheet" href="<?php echo $helper::asset('css/whatsapp.css')  ?>">
     <link rel="stylesheet" href="<?php echo $helper::asset('fa-6.7.2/css/all.min.css')  ?>">
     <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
 </head>
