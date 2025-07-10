@@ -20,7 +20,7 @@
             $logo = true;
             if ($logo):
             ?>
-                <img class="logo" src="/images/trnsp-logo.png" alt="Marhaba Technical Services Logo">
+               <a href="/"><img class="logo" src="/images/trnsp-logo.png" alt="Marhaba Technical Services Logo"></a> 
             <?php else: ?>
                 <h2 class="logo"><a href="/"><i class="fa-solid fa-gear"></i> Marhaba Technical Services</a></h2>
             <?php endif ?>
