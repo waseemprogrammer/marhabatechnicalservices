@@ -100,3 +100,17 @@ address{
     font-size: 1.3rem;
 }
 
+@media (max-width: 700px) {
+    .header{
+        top: 10px;
+    }
+    .topbar{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .navbar{
+        gap: 1rem;
+    }
+}
