@@ -1,0 +1,14 @@
+.container{
+    color: var(--light-color);
+    display: grid;
+    place-content: center;
+    padding: 4rem;
+    margin: auto;
+}
+.container p{
+    margin-top: 1.3rem;
+}
+.container a{
+    margin-top: 1.3rem;
+
+}
