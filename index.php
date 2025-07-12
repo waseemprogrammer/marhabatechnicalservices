@@ -1,4 +1,5 @@
 <?php
+
 header("Cache-Control: no-cache, no-store, must-revalidate");
 header("Pragma: no-cache");
 header("Expires: 0");
@@ -7,6 +8,7 @@ header("Expires: 0");
 use App\Core\Helper;
 
 include __DIR__.'/bootstrap/index.php';
+
 
 $uri = $_SERVER['REQUEST_URI'];
 
@@ -20,6 +22,7 @@ $routes = [
 ];
 
 
+
 if(array_key_exists($uri, $routes)){
     http_response_code(200);
     include $routes[$uri];
@@ -27,3 +30,5 @@ if(array_key_exists($uri, $routes)){
 }else{
    Helper::error('404');
 }
+
+

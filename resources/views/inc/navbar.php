@@ -20,8 +20,10 @@
             $logo = true;
             if ($logo):
             ?>
-               <a href="/"><img class="logo" src="/images/trnsp-logo.png?v=<?= filemtime('/images/trnsp-logo.png') ?>" alt="Marhaba Technical Services Logo"></a> 
-            <?php else: ?>
+            <a href="/">
+                <img class="logo" src="/images/trnsp-logo.png?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/images/trnsp-logo.png') ?>" alt="Marhaba Technical Services Logo">
+            </a>
+                <?php else: ?>
                 <h2 class="logo"><a href="/"><i class="fa-solid fa-gear"></i> Marhaba Technical Services</a></h2>
             <?php endif ?>
         </div>
